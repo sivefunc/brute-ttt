@@ -54,7 +54,7 @@ void write_html(treenode *node,             // recursively writes html of
 int main(void)
 {
     // tic tac toe size (3x3)
-    const uint8_t rows = 2, columns = 2;
+    const uint8_t rows = 3, columns = 3;
     
     // Creating initial parent and corresponding game.
     treenode * root = create_node(NULL);
