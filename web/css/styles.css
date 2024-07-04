@@ -1,0 +1,64 @@
+body
+{
+    background: #282828;
+}
+
+a
+{
+    background-color: #585858;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #c8c8c8;
+}
+
+.grid
+{
+    display: table;
+    border-spacing: 5px;
+    margin: auto;
+}
+
+.row
+{
+    display: table-row
+}
+
+.cell
+{
+    display: table-cell;
+    font-size: 75px;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.X
+{
+    color: #ff0000;
+}
+
+.O
+{
+    color: #0000ff;
+}
+
+h1
+{
+    text-align: center;
+    color: #ffffff;
+}
+
+#new-game
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+}
